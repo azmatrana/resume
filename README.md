@@ -1,5 +1,6 @@
 ## Styling
 
+DONOT change directly to css file.
 This resume is using the scss file for writing styles.
 
 ## Scss compilation
