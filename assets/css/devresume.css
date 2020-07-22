@@ -9848,3 +9848,20 @@ a.ex-link {
     max-width: 100%;
   }
 }
+
+.pdf .container {
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100%;
+  max-width: 100%;
+}
+
+.pdf .container .resume-wrapper {
+  border: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.pdf .container .shadow-lg {
+  box-shadow: none !important;
+}
