@@ -250,19 +250,49 @@ a.ex-link {
 
 .pdf{
   .container{
-      padding: 0 !important;
-      margin: 0 !important;
+      margin-top: 0px !important;
+      margin-bottom: 10px !important;
+      margin-left: 0px !important;
+      margin-right: 0px !important;
       width: 100%;
       max-width: 100%;
 
     .resume-wrapper{
       border: none;
-      padding: 0 !important;
-      margin: 0 !important;
+      &.my-5{
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+      }
+      &.p-5{
+        padding: 30px 0 0 0 !important;
+        margin-bottom: 3px !important;
+      }
+      .resume-footer{
+        min-height: 25px;
+      }
+    }
+    .project-section.py-3
+    {
+      padding-top: 0px !important;
+      padding-bottom: 0px !important;
     }
     .shadow-lg{
-        box-shadow: none !important;
+      box-shadow: none !important;
     }
   }
 }
 
+.resume-footer{
+  .github-icons{
+    li{
+      display: inline-block;
+      margin-right: 20px;
+      span{
+        font-size: 14px;
+      }
+      .resume-link:hover{
+        text-decoration: none;
+      }
+    }
+  }
+}
