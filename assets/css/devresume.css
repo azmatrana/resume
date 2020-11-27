@@ -9885,6 +9885,16 @@ a.ex-link {
   box-shadow: none !important;
 }
 
+.pdf footer,
+.pdf .download-resume {
+  display: none;
+}
+
+.download-resume {
+  letter-spacing: normal;
+  font-size: 15px;
+}
+
 .resume-footer .github-icons li {
   display: inline-block;
   margin-right: 20px;

@@ -280,6 +280,15 @@ a.ex-link {
       box-shadow: none !important;
     }
   }
+  footer,
+  .download-resume{
+    display: none;
+  }
+}
+
+.download-resume{
+  letter-spacing: normal;
+  font-size: 15px;
 }
 
 .resume-footer{
